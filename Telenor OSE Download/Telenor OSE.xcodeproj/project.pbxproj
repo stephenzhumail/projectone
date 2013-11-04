@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910E7CD018044075000E52DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910E7CCF18044075000E52DE /* Foundation.framework */; };
+		910E7CD218044075000E52DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910E7CD118044075000E52DE /* CoreGraphics.framework */; };
+		910E7CD418044076000E52DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910E7CD318044076000E52DE /* UIKit.framework */; };
+		910E7CDA18044076000E52DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910E7CD818044076000E52DE /* InfoPlist.strings */; };
+		910E7CDC18044076000E52DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910E7CDB18044076000E52DE /* main.m */; };
+		910E7CE018044076000E52DE /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910E7CDF18044076000E52DE /* WTAppDelegate.m */; };
+		910E7CE918044076000E52DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910E7CE818044076000E52DE /* XCTest.framework */; };
+		910E7CEA18044076000E52DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910E7CCF18044075000E52DE /* Foundation.framework */; };
+		910E7CEB18044076000E52DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910E7CD318044076000E52DE /* UIKit.framework */; };
+		910E7D00180440EF000E52DE /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910E7CFF180440EF000E52DE /* UIWebViewController.m */; };
+		912B8355181163EE00AB7C81 /* WTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912B8354181163EE00AB7C81 /* WTTableViewController.m */; };
+		912B835B18116DF600AB7C81 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 912B835A18116DF600AB7C81 /* MBProgressHUD.m */; };
+		91C9A907181173E80048A8A2 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 91C9A8FB181173E80048A8A2 /* ZipArchive.mm */; };
+		91C9A908181173E80048A8A2 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 91C9A8FF181173E80048A8A2 /* ioapi.c */; };
+		91C9A909181173E80048A8A2 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 91C9A901181173E80048A8A2 /* mztools.c */; };
+		91C9A90A181173E80048A8A2 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 91C9A903181173E80048A8A2 /* unzip.c */; };
+		91C9A90B181173E80048A8A2 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 91C9A905181173E80048A8A2 /* zip.c */; };
+		91C9A90D1811740A0048A8A2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C9A90C1811740A0048A8A2 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		910E7CEC18044076000E52DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910E7CC418044075000E52DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910E7CCB18044075000E52DE;
+			remoteInfo = "Telenor OSE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		910E7CCC18044075000E52DE /* Telenor OSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telenor OSE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		910E7CCF18044075000E52DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		910E7CD118044075000E52DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		910E7CD318044076000E52DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		910E7CD718044076000E52DE /* Telenor OSE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Telenor OSE-Info.plist"; sourceTree = "<group>"; };
+		910E7CD918044076000E52DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		910E7CDB18044076000E52DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		910E7CDD18044076000E52DE /* Telenor OSE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Telenor OSE-Prefix.pch"; sourceTree = "<group>"; };
+		910E7CDE18044076000E52DE /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		910E7CDF18044076000E52DE /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		910E7CE718044076000E52DE /* Telenor OSETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telenor OSETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		910E7CE818044076000E52DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		910E7CFE180440EF000E52DE /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		910E7CFF180440EF000E52DE /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		912B8353181163EE00AB7C81 /* WTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTTableViewController.h; sourceTree = "<group>"; };
+		912B8354181163EE00AB7C81 /* WTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTTableViewController.m; sourceTree = "<group>"; };
+		912B835918116DF600AB7C81 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		912B835A18116DF600AB7C81 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		91C9A8FB181173E80048A8A2 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		91C9A8FC181173E80048A8A2 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		91C9A8FE181173E80048A8A2 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		91C9A8FF181173E80048A8A2 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		91C9A900181173E80048A8A2 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		91C9A901181173E80048A8A2 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		91C9A902181173E80048A8A2 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		91C9A903181173E80048A8A2 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		91C9A904181173E80048A8A2 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		91C9A905181173E80048A8A2 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		91C9A906181173E80048A8A2 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		91C9A90C1811740A0048A8A2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910E7CC918044075000E52DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C9A90D1811740A0048A8A2 /* libz.dylib in Frameworks */,
+				910E7CD218044075000E52DE /* CoreGraphics.framework in Frameworks */,
+				910E7CD418044076000E52DE /* UIKit.framework in Frameworks */,
+				910E7CD018044075000E52DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910E7CE418044076000E52DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910E7CE918044076000E52DE /* XCTest.framework in Frameworks */,
+				910E7CEB18044076000E52DE /* UIKit.framework in Frameworks */,
+				910E7CEA18044076000E52DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910E7CC318044075000E52DE = {
+			isa = PBXGroup;
+			children = (
+				910E7CD518044076000E52DE /* Telenor OSE */,
+				910E7CCE18044075000E52DE /* Frameworks */,
+				910E7CCD18044075000E52DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		910E7CCD18044075000E52DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910E7CCC18044075000E52DE /* Telenor OSE.app */,
+				910E7CE718044076000E52DE /* Telenor OSETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910E7CCE18044075000E52DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C9A90C1811740A0048A8A2 /* libz.dylib */,
+				910E7CCF18044075000E52DE /* Foundation.framework */,
+				910E7CD118044075000E52DE /* CoreGraphics.framework */,
+				910E7CD318044076000E52DE /* UIKit.framework */,
+				910E7CE818044076000E52DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		910E7CD518044076000E52DE /* Telenor OSE */ = {
+			isa = PBXGroup;
+			children = (
+				910E7CFE180440EF000E52DE /* UIWebViewController.h */,
+				910E7CFF180440EF000E52DE /* UIWebViewController.m */,
+				912B8353181163EE00AB7C81 /* WTTableViewController.h */,
+				912B8354181163EE00AB7C81 /* WTTableViewController.m */,
+				91C9A8FB181173E80048A8A2 /* ZipArchive.mm */,
+				91C9A8FC181173E80048A8A2 /* ZipArchive.h */,
+				91C9A8FD181173E80048A8A2 /* minizip */,
+				910E7CDE18044076000E52DE /* WTAppDelegate.h */,
+				910E7CDF18044076000E52DE /* WTAppDelegate.m */,
+				910E7CD618044076000E52DE /* Supporting Files */,
+			);
+			path = "Telenor OSE";
+			sourceTree = "<group>";
+		};
+		910E7CD618044076000E52DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				912B835818116DF600AB7C81 /* MB */,
+				910E7CD718044076000E52DE /* Telenor OSE-Info.plist */,
+				910E7CD818044076000E52DE /* InfoPlist.strings */,
+				910E7CDB18044076000E52DE /* main.m */,
+				910E7CDD18044076000E52DE /* Telenor OSE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		912B835818116DF600AB7C81 /* MB */ = {
+			isa = PBXGroup;
+			children = (
+				912B835918116DF600AB7C81 /* MBProgressHUD.h */,
+				912B835A18116DF600AB7C81 /* MBProgressHUD.m */,
+			);
+			path = MB;
+			sourceTree = "<group>";
+		};
+		91C9A8FD181173E80048A8A2 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				91C9A8FE181173E80048A8A2 /* crypt.h */,
+				91C9A8FF181173E80048A8A2 /* ioapi.c */,
+				91C9A900181173E80048A8A2 /* ioapi.h */,
+				91C9A901181173E80048A8A2 /* mztools.c */,
+				91C9A902181173E80048A8A2 /* mztools.h */,
+				91C9A903181173E80048A8A2 /* unzip.c */,
+				91C9A904181173E80048A8A2 /* unzip.h */,
+				91C9A905181173E80048A8A2 /* zip.c */,
+				91C9A906181173E80048A8A2 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910E7CCB18044075000E52DE /* Telenor OSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910E7CF818044076000E52DE /* Build configuration list for PBXNativeTarget "Telenor OSE" */;
+			buildPhases = (
+				910E7CC818044075000E52DE /* Sources */,
+				910E7CC918044075000E52DE /* Frameworks */,
+				910E7CCA18044075000E52DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telenor OSE";
+			productName = "Telenor OSE";
+			productReference = 910E7CCC18044075000E52DE /* Telenor OSE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		910E7CE618044076000E52DE /* Telenor OSETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910E7CFB18044076000E52DE /* Build configuration list for PBXNativeTarget "Telenor OSETests" */;
+			buildPhases = (
+				910E7CE318044076000E52DE /* Sources */,
+				910E7CE418044076000E52DE /* Frameworks */,
+				910E7CE518044076000E52DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				910E7CED18044076000E52DE /* PBXTargetDependency */,
+			);
+			name = "Telenor OSETests";
+			productName = "Telenor OSETests";
+			productReference = 910E7CE718044076000E52DE /* Telenor OSETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910E7CC418044075000E52DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = StephenZhu;
+				TargetAttributes = {
+					910E7CE618044076000E52DE = {
+						TestTargetID = 910E7CCB18044075000E52DE;
+					};
+				};
+			};
+			buildConfigurationList = 910E7CC718044075000E52DE /* Build configuration list for PBXProject "Telenor OSE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 910E7CC318044075000E52DE;
+			productRefGroup = 910E7CCD18044075000E52DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910E7CCB18044075000E52DE /* Telenor OSE */,
+				910E7CE618044076000E52DE /* Telenor OSETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910E7CCA18044075000E52DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910E7CDA18044076000E52DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910E7CE518044076000E52DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910E7CC818044075000E52DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C9A90A181173E80048A8A2 /* unzip.c in Sources */,
+				912B8355181163EE00AB7C81 /* WTTableViewController.m in Sources */,
+				910E7D00180440EF000E52DE /* UIWebViewController.m in Sources */,
+				91C9A90B181173E80048A8A2 /* zip.c in Sources */,
+				91C9A909181173E80048A8A2 /* mztools.c in Sources */,
+				912B835B18116DF600AB7C81 /* MBProgressHUD.m in Sources */,
+				910E7CDC18044076000E52DE /* main.m in Sources */,
+				91C9A907181173E80048A8A2 /* ZipArchive.mm in Sources */,
+				910E7CE018044076000E52DE /* WTAppDelegate.m in Sources */,
+				91C9A908181173E80048A8A2 /* ioapi.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910E7CE318044076000E52DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		910E7CED18044076000E52DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910E7CCB18044075000E52DE /* Telenor OSE */;
+			targetProxy = 910E7CEC18044076000E52DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		910E7CD818044076000E52DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910E7CD918044076000E52DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910E7CF618044076000E52DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		910E7CF718044076000E52DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Asiainfo-Linkage Technologies (China) Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Asiainfo-Linkage Technologies (China) Inc.";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "1BC9AD5D-A80B-4A10-8A95-92E42942F2B4";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		910E7CF918044076000E52DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Telenor OSE/Telenor OSE-Prefix.pch";
+				INFOPLIST_FILE = "Telenor OSE/Telenor OSE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		910E7CFA18044076000E52DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Asiainfo-Linkage Technologies (China) Inc.";
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Telenor OSE/Telenor OSE-Prefix.pch";
+				INFOPLIST_FILE = "Telenor OSE/Telenor OSE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		910E7CFC18044076000E52DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Telenor OSE.app/Telenor OSE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Telenor OSE/Telenor OSE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Telenor OSETests/Telenor OSETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		910E7CFD18044076000E52DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Telenor OSE.app/Telenor OSE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Telenor OSE/Telenor OSE-Prefix.pch";
+				INFOPLIST_FILE = "Telenor OSETests/Telenor OSETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910E7CC718044075000E52DE /* Build configuration list for PBXProject "Telenor OSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910E7CF618044076000E52DE /* Debug */,
+				910E7CF718044076000E52DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910E7CF818044076000E52DE /* Build configuration list for PBXNativeTarget "Telenor OSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910E7CF918044076000E52DE /* Debug */,
+				910E7CFA18044076000E52DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910E7CFB18044076000E52DE /* Build configuration list for PBXNativeTarget "Telenor OSETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910E7CFC18044076000E52DE /* Debug */,
+				910E7CFD18044076000E52DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 910E7CC418044075000E52DE /* Project object */;
+}
