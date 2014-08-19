@@ -13,6 +13,7 @@
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
+        //v1.0
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([WTAppDelegate class]));
     }
 }
