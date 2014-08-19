@@ -14,6 +14,7 @@ int main(int argc, char * argv[])
 {
     @autoreleasepool {
         //v1.0
+        //sadfa
         //主分支
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([WTAppDelegate class]));
     }
